@@ -34,15 +34,6 @@
                                     <rect key="frame" x="33" y="83" width="80" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据库操作" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0t-aU-GkX">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="66" y="36" width="245" height="24"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC3-s2-VWi">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="添加"/>
@@ -189,13 +180,21 @@
                                     <rect key="frame" x="43" y="325" width="85" height="21"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据库操作" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0t-aU-GkX">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="78" y="37" width="245" height="24"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="uHq-PL-d7u"/>
                                 <exclude reference="IJF-pz-D2i"/>
-                                <exclude reference="v0t-aU-GkX"/>
                                 <exclude reference="BC3-s2-VWi"/>
                                 <exclude reference="6lO-E6-bKq"/>
                                 <exclude reference="yVd-01-aNt"/>
@@ -212,13 +211,13 @@
                                 <exclude reference="juv-iN-H95"/>
                                 <exclude reference="Chp-PW-LZg"/>
                                 <exclude reference="vdt-gs-9BO"/>
+                                <exclude reference="v0t-aU-GkX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="uHq-PL-d7u"/>
                                 <include reference="IJF-pz-D2i"/>
-                                <include reference="v0t-aU-GkX"/>
                                 <include reference="BC3-s2-VWi"/>
                                 <include reference="6lO-E6-bKq"/>
                                 <include reference="yVd-01-aNt"/>
@@ -235,6 +234,7 @@
                                 <include reference="juv-iN-H95"/>
                                 <include reference="Chp-PW-LZg"/>
                                 <include reference="vdt-gs-9BO"/>
+                                <include reference="v0t-aU-GkX"/>
                             </mask>
                         </variation>
                     </view>

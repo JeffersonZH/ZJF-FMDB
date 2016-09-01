@@ -28,7 +28,6 @@
 
     //创建表单：车次记录表单
     [dataBase createList:@"数据" columns:@{@"ID":@"integer",@"车次":@"char(128)"} primaryKey:@"ID"];
-    
 }
 
 //1 插入数据:将输入的数据存到数据库
@@ -64,10 +63,8 @@
     }
 }
 
-
 - (void)showAlertViewWithString:(NSString *)msg {
     UIAlertController * alertController = [UIAlertController alertControllerWithTitle:@"提示" message:msg preferredStyle:UIAlertControllerStyleAlert];
-    
     UIAlertAction * OKAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", @"OK action")  style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
     }];
     [alertController addAction:OKAction];
@@ -103,8 +100,6 @@
         }
     }
 }
-
-
 
 
 
